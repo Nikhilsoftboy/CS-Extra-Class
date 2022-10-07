@@ -1,0 +1,72 @@
+SQL
+1) DDL
+2) DML
+3) DCL/TCL
+
+1) DDL Deals with sturcture or schema
+a) Create - it creates new object
+b) Alter - it make changes in object structure
+c) Drop - It remove the object
+
+
+Database/Table/View
+
+create database dname
+
+
+create table tname
+
+
+create table tname
+(
+fieldname1 datatype(Size),
+fieldname2 dataytype(size),
+.
+.
+.
+fieldname datatype(size)
+);
+
+fname char(20)
+fname varchar(20)
+char -  Fixed Size Record
+varchar - Variable size records `
+Raj                 
+Raj
+Raman
+Anil Kumar
+
+
+
+
+
+
+
+create view vname
+
+
+drop
+to remove the object from the account
+drop database dbname
+drop table tablename
+drop view viewname
+
+
+drop database/table/view objectname
+
+
+show databases 
+it list all the existing databases in your mysql user account.
+
+use dbname
+to open an exist database
+
+Show tables
+to List all the tables in the current database
+
+desc tablename
+to list the attributes/columns of the tables
+
+select:
+to see the records of the table
+select * from tablename

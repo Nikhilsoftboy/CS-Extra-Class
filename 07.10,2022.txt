@@ -1,0 +1,51 @@
+DML : Data Manipulation Langauage
+1) Select : to see or retrive the data from table/relation
+2) Insert:  to add new records in the table/relation
+3) Delete: to remove the records from the table/relation
+4) Update: to make changes in the existing records in the table
+1) Insert:
+
+insert into tablename(colname1,colname2,...colnamen) values(value1,value2,...valuen);
+
+or
+
+insert into table values(value1,value2,....valuen);
+
+
+Delete: to remove record from a table
+
+Delete from tablename
+or
+Delete from tablename where condition
+
+Update: to make changes in the existing records
+
+Update tablename
+set colname=newvalue
+where condition;
+
+select * from tablename;
+select columnlists from tablename;
+
+select * from tablename where condition
+
+1) or operator
+2) and operator
+3) is operator
+4) in operator
+5) between operator
+6) Like operator
+7) Relation (> < >= <= = <> !=)
+
+_ %
+_ for single char length
+% for any no of char /any length
+
+whenever you are using _ or % then condition will be checked with like operator
+
+TCL
+
+Commit: To save the changes in the database
+rollback: to cancel the changes in the database
+savepoint label: create the book marks in the transaction
+rollback to label: cancel the change done after the given label
